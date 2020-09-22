@@ -1,2 +1,13 @@
 Code Book
 
+This project uses data collected from the accelerometers from the Samsung Galaxy S smartphone. Here are the data for the project: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+A full description is available at the site where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+The project uses the following data sets: x_train.txt, y_train.txt, subject_train.txt, x_test.txt, y_test.txt and subject_test.txt.
+The file features.txt contains the variable names for each column of x_train.txt and x_test.txt.
+The file activity_labels contains the descriptive names for each for each activity in y_train.txt and y_test.txt.
+
+The R Script run_analysis.R creates the Data_tidy.txt data set. This is an independent tidy data set with the average of each variable for each activity and each subject.
